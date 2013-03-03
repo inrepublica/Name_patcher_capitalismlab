@@ -4,6 +4,11 @@ Name Patcher For Capitalism Lab
 A simply tool for modify name of corporations and persons in the game Capitalism Lab.
 
 
+Download
+--------
+Download the lastest compiled version of Name Patcher for Capitalism Lab:
+- [Version 0.1] (http://mickael.duval2.free.fr/capitalism/name%20patcher%20for%20capiutalism%20lab/name%20patcher%20for%20capitalism%20lab%20v0.1.zip)
+
 Usage
 -----
 Simply put 1STD.SET (found in C:\Users\Your Name\AppData\Local\Capitalism Lab\gameset) in the same directory of name patcher read.exe and name patcher write.exe.
