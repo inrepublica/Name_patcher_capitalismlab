@@ -1,3 +1,8 @@
+#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
+#AutoIt3Wrapper_Icon=write.ico
+#AutoIt3Wrapper_Compression=4
+#AutoIt3Wrapper_UseX64=n
+#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 #Include <Array.au3>
 #include<File.au3>
 #include<fonctions\csv2array.au3>
@@ -64,7 +69,6 @@ $nombre_personne = 64
 
 ;Ouverture et chargement du fichier corporation.csv dans un tableau
 $tableau_personcsv = _CSV2Array("person.csv",";")
-_ArrayDisplay($tableau_personcsv)
 
 ;Mise en place du pointeur
 $pointeur = $debut_nom
