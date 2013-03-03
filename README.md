@@ -4,6 +4,11 @@ Name Patcher For Capitalism Lab
 A simply tool for modify name of corporations and persons in the game Capitalism Lab.
 
 
+OS
+--------
+Name Patcher is build for OS Windows. Tested with success in Windows 7 (64bits).
+
+
 Download
 --------
 Download the lastest compiled version of Name Patcher for Capitalism Lab:
