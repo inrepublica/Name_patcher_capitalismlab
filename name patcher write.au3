@@ -20,7 +20,7 @@ $tableau_fichier = StringRegExp(FileRead($fichier), '[[:xdigit:]]{2}', 3)
 FileClose($fichier)
 
 ;Ouverture et chargement du fichier corporation.csv dans un tableau
-$tableau_corporationcsv = _CSV2Array("corporation.csv",";")
+$tableau_corporationcsv = _CSV2Array("corporation.csv", ";")
 
 ;Mise en place du pointeur
 $pointeur = $debut_nom
