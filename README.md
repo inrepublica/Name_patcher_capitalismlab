@@ -6,7 +6,7 @@ A simply tool for modify name of corporations and persons in the game Capitalism
 
 OS
 --------
-Name Patcher is build for OS Windows. Tested with success in Windows 7 (64bits).
+Name Patcher is built for OS Windows. Tested with success in Windows 7 (64bits).
 
 
 Download
