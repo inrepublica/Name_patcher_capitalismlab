@@ -1,5 +1,5 @@
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_Icon=read.ico
+#AutoIt3Wrapper_Icon=ico\read.ico
 #AutoIt3Wrapper_Compression=4
 #AutoIt3Wrapper_UseX64=n
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
