@@ -5,7 +5,7 @@
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 #Include <Array.au3>
 #include<File.au3>
-#include<fonctions\csv2array.au3>
+#include<functions\csv2array.au3>
 
 ;Définition des variables pour corporation.csv
 $debut_nom = 17712

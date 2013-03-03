@@ -49,6 +49,12 @@ Next
 ;Exportation du tableau dans un fichier csv
 _FileWriteFromArray("corporation.csv", $csv)
 
+;Supression de la dernière ligne vide du csv
+$csv = FileRead("corporation.csv")
+$fichier = FileOpen("corporation.csv", 2)
+FileWrite($fichier, StringTrimRight($csv, 2))
+FileClose($fichier)
+
 ;Declaration des variables pour les noms des personnes
 $debut_nom = 54387
 $longueur_name = 29
@@ -88,6 +94,12 @@ Next
 
 ;Exportation du tableau dans un fichier csv
 _FileWriteFromArray("person.csv", $csv)
+
+;Supression de la dernière ligne vide du csv
+$csv = FileRead("person.csv")
+$fichier = FileOpen("person.csv", 2)
+FileWrite($fichier, StringTrimRight($csv, 2))
+FileClose($fichier)
 
 ;Message de réussite
 MsgBox(0, "Export Done", "Export of corporation.csv and person.csv successfull.")
