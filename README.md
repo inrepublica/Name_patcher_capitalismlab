@@ -21,6 +21,10 @@ Simply put 1STD.SET (found in C:\Users\Your Name\AppData\Local\Capitalism Lab\ga
 - Edit csv with your favorite spreadsheets editor
 - Use name patcher write.exe for patch your 1STD.SET with your modified csv
 
+Warning
+-------
+Use with caution, make a backup of 1STD.SET before use this tool!!! The software is currently still in beta, and there is no error checking in the read / write csv files.
+
 
 Licence
 -------
