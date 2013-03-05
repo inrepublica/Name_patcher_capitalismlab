@@ -61,7 +61,7 @@ $longueur_sex = 7
 $longueur_code = 2
 $nombre_personne = 64
 $longueur_csv = $nombre_personne + 1
-Dim $csv[$longueur_csv] = ["NAME (max 30 characters);SEX = MWestern for man FWestern for woman;CODE = F01 to F26 for female picture and M01 to M38 for male picture"]
+Dim $csv[$longueur_csv] = ["NAME = max 30 characters;SEX = MWestern for man FWestern for woman;CODE = F01 to F26 for female picture and M01 to M38 for male picture;TRAINING = 0 to 100;ADVERTISE = 0 to 100;R&D = 0 to 100;FARMING = 0 to 100;MANUFACTURING = 0 to 100;RETAIL = 0 to 100;RAW = 0 to 100"]
 
 ;Assignation de $i au début des noms de personne
 $i = $debut_nom
@@ -85,7 +85,65 @@ For $y = 1 to $nombre_personne
 	For $i = $i to $i + $longueur_code
 		$ligne &= Chr("0x" & $tableau_fichier[$i])
 	Next
-	$i = $i + 73
+	$ligne &= ";"
+	$i = $i + 51
+	;Récupération du TRAINING
+	$valeur = ""
+	For $i = $i to $i + 2
+		$valeur &= Chr("0x" & $tableau_fichier[$i])
+	Next
+	$valeur = StringStripWS($valeur, 1)
+	$ligne &= $valeur
+	$ligne &= ";"
+	;Récupération du ADVERTISE
+	$valeur = ""
+	For $i = $i to $i + 2
+		$valeur &= Chr("0x" & $tableau_fichier[$i])
+	Next
+	$valeur = StringStripWS($valeur, 1)
+	$ligne &= $valeur
+	$ligne &= ";"
+	;Récupération du R&D
+	$valeur = ""
+	For $i = $i to $i + 2
+		$valeur &= Chr("0x" & $tableau_fichier[$i])
+	Next
+	$valeur = StringStripWS($valeur, 1)
+	$ligne &= $valeur
+	$ligne &= ";"
+	;Récupération du FARMING
+	$valeur = ""
+	For $i = $i to $i + 2
+		$valeur &= Chr("0x" & $tableau_fichier[$i])
+	Next
+	$valeur = StringStripWS($valeur, 1)
+	$ligne &= $valeur
+	$ligne &= ";"
+	;Récupération du MANUFACTURING
+	$valeur = ""
+	For $i = $i to $i + 2
+		$valeur &= Chr("0x" & $tableau_fichier[$i])
+	Next
+	$valeur = StringStripWS($valeur, 1)
+	$ligne &= $valeur
+	$ligne &= ";"
+	;Récupération du RETAIL
+	$valeur = ""
+	For $i = $i to $i + 2
+		$valeur &= Chr("0x" & $tableau_fichier[$i])
+	Next
+	$valeur = StringStripWS($valeur, 1)
+	$ligne &= $valeur
+	$ligne &= ";"
+	;Récupération du RAW
+	$valeur = ""
+	For $i = $i to $i + 2
+		$valeur &= Chr("0x" & $tableau_fichier[$i])
+	Next
+	$valeur = StringStripWS($valeur, 1)
+	$ligne &= $valeur
+
+	$i = $i + 1
 
 	;Assignation du mot dans un tableau pour export en csv
 	$csv[$y] = $ligne
