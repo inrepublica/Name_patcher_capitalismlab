@@ -33,6 +33,6 @@ The sources of this software are released under the [GPL v3 License] (http://www
 
 Changelog
 ---------
-v0.3 : Bug Fix in persons expertise
+v0.3 : Bug Fix in persons expertise  
 v0.2 : Add persons expertise for person.csv  
 v0.1 : initial release
