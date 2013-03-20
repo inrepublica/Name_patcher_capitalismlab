@@ -12,7 +12,7 @@ Name Patcher is built for OS Windows. Tested with success in Windows 7 (64bits).
 Download
 --------
 Download the lastest compiled version of Name Patcher for Capitalism Lab:
-- [Version 0.3] ()
+- [Version 0.3] (http://mickael.duval2.free.fr/capitalism/name%20patcher%20for%20capitalism%20lab/name%20patcher%20for%20capitalism%20labv0.3.zip)
 
 Usage
 -----
