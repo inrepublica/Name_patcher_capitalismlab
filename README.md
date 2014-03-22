@@ -37,7 +37,7 @@ Use CAPMOD.RES rather than 1STD.SET
 Use new characteristic in person.csv and corporation.csv  
 
 **v0.3**  
-Bug fixe in persons expertise
+Bug fix in persons expertise
 
 **v0.2:**  
 Add persons expertise for person.csv
