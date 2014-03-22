@@ -31,7 +31,7 @@ The sources of this software are released under the [GPL v3 License] (http://www
 
 Changelog
 ---------
-**v0.3:**
+**v0.3:**  
 Make compatible with 2.4.0.5G Beta  
 Use CAPMOD.RES rather than 1STD.SET  
 Use new characteristic in person.csv and corporation.csv  
