@@ -33,9 +33,15 @@ Changelog
 ---------
 **v0.3:**
 Make compatible with 2.4.0.5G Beta
+
 Use CAPMOD.RES rather than 1STD.SET
+
 Use new characteristic in person.csv and corporation.csv
+
 **v0.2:**
-Add persons expertise for person.csv  
+
+Add persons expertise for person.csv
+
 **v0.1:**
+
 Initial release
