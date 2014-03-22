@@ -11,7 +11,7 @@ Requirement
 Download
 --------
 Download the lastest compiled version of Name Patcher for Capitalism Lab:
-- [Version 0.3] 
+- [Version 0.4] 
 
 Usage
 -----
@@ -31,10 +31,13 @@ The sources of this software are released under the [GPL v3 License] (http://www
 
 Changelog
 ---------
-**v0.3:**  
+**v0.4:**  
 Make compatible with 2.4.0.5G Beta  
 Use CAPMOD.RES rather than 1STD.SET  
 Use new characteristic in person.csv and corporation.csv  
+
+**v0.3**  
+Bug fixe in persons expertise
 
 **v0.2:**  
 Add persons expertise for person.csv
