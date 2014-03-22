@@ -11,7 +11,7 @@ Requirement
 Download
 --------
 Download the lastest compiled version of Name Patcher for Capitalism Lab:
-- [Version 0.4] 
+- [Version 0.4] (http://mickael.duval2.free.fr/capitalism/name%20patcher%20for%20capitalism%20lab/name_patcher_capitalismlab_v0.4.zip)
 
 Usage
 -----
