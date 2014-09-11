@@ -1,4 +1,8 @@
 NOTE: This tool is now depreciated, in this last version capitalism lab now contain own mod builder.
+====================================================================================================
+
+
+
 
 Name Patcher For Capitalism Lab
 ===============================
